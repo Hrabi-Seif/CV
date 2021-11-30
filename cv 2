@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>C.V</title>
+  </head>
+  <body>
+    <!-- <h1> This is my first application ! </h1> -->
+    <!-- this is a header part -->
+    <!-- <header> -->
+    <header>
+      <nav>
+        <!-- To import the image from google to laptop  -->
+        <img src="assets/CV LOGO.jpg" alt="cv logo" />
+        <ul>
+          <a href="#COURS"><li>COURS</li></a>
+          <a href="#MY-PROJECT"><li>MY-PROJECT</li></a>
+          <a href="#CONTACT"><li>CONTACT</li></a>
+          
+        </ul>
+      </nav>
+            <!-- intoduction Part -->
+      <section>
+        <div>
+          <h2>My Name Is Seif Hrabi</h2>
+          <p>I'm a full stack javascript developer at GOMYCODE downtown </p>
+        </div>
+        <img src="assets/SEIF LOGO.jpg" alt="avatar" width="300px" />
+      </section>
+    </header>
+  <main>
+          <!-- COURS Part -->
+          <section id="COURS">
+            <div>
+              <H2>
+               HTML (HyperText Markup Language) 
+              </H2>
+              <p>
+                HTML stands for 'HyperText Markup Language' which can be translated as 'hypertext markup language'. It is used in order to create and represent the content of a web page and its structure. Other technologies are used with HTML to describe the presentation of a page (CSS) and / or its interactive features (JavaScript).
+              </p>
+              <iframe
+               width="560"
+                height="315"
+                 src="https://www.youtube.com/embed/bWPMSSsVdPk"
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen>
+                  </iframe>
+                  </div>
+                  </section>
+                  <section id="MY-PROJECT">
+                    <div>
+                      <h2>CSS</h2>
+                      <P>
+                        Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.
+                      </P>  
+
+
+                      <button>see more</button>
+                    </div>
+                    <div>
+                      <h2>JAVASCRIPT</h2>
+                      <P>
+                        JavaScript is the world's most popular programming language.
+                        JavaScript is the programming language of the Web.
+                        JavaScript is easy to learn.
+                        This tutorial will teach you JavaScript from basic to advanced.
+                      </P>
+                      <button>see more </button>
+                    </div>
+                  </section>
+                  </main>
+                  <footer id="CONTACT">
+                    <form>
+                      <br>
+                         <label  for="fname">FIRST NAME:</labe>   <br> <br>
+                      <input id=fname type="text" name="fname" placeholder="your first name">  <br> <br>
+                      <label for="lname"> last name </label>  <br> <br>
+                     <input id=lname type="text" name="lname" >  <br> <br>
+                       <label for="lname">Email:</label > <br> <br>
+                       <input required type="email" name="lname" id="lname" >    <br> <br>
+                        <button>submit</button>  <br> <br>           
+                    </form>
+                    <div>
+                      <!-- To Go To extrenal Link we use the tag <a> -->
+                         <a href="https://gomycode.com/TN-FR/home" target="_blank"> <img src="assets/gmc.jfif" alt="gmc logo"> </a>  <br> <br>
+                         <a href="https://www.facebook.com"  target="_blank">  <img src="assets/facebook-logo-2019-1597680-1350125.png" alt="fb logo">  </a>  <br> <br>
+                         <a href="https://www.instagram.com  "   target="_blank">  <img src="assets/insta.jfif" alt="insta logo"> </a>  <br> <br>
+                    </div>
+                  </footer>
+                  </body>
+                  </html>
+
